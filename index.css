@@ -11,7 +11,8 @@
 
 body{
     font-family: Arial, sans-serif;
-    background-color: hsl(0,0%,95%);
+  background: linear-gradient(135deg, orange 60%, cyan);
+    margin: 0;
     margin: 0;
     display: flex;
     flex-direction: column;
