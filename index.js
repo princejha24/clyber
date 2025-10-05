@@ -4,7 +4,8 @@ const cityInput=document.querySelector(".cityInput");
 const card=document.querySelector(".card");
  const video = document.getElementById("backgroundVideo");
 const apiKey="7d48bc6d37885caabf9b4dbde04c7a96";
-
+const backgroundVideo = document.getElementById("backgroundVideo");
+backgroundVideo.load();
 weatherForm.addEventListener("submit",async event=>{
 
     event.preventDefault();
