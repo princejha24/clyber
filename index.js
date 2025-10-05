@@ -5,6 +5,12 @@ const card=document.querySelector(".card");
  const video = document.getElementById("backgroundVideo");
 const apiKey="7d48bc6d37885caabf9b4dbde04c7a96";
 
+const video = document.getElementById("backgroundVideo");
+video.load();  // start loading default video ASAP
+video.play();  // make sure it plays automatically
+video.addEventListener('canplay', () => {
+  video.classList.add('loaded');  // fade in smoothly
+});
 
 weatherForm.addEventListener("submit",async event=>{
 
