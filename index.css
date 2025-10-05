@@ -11,7 +11,7 @@
 
 body{
     font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, orange 60%, cyan);
+   background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
     margin: 0;
     margin: 0;
     display: flex;
