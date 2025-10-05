@@ -135,7 +135,7 @@ function changeBackgroundVideo(weatherId) {
     else {
         video.src = "video/normal.mp4"; // Fallback
     }
-
+    video.load();
     video.play();
 }
 
@@ -153,5 +153,6 @@ function displayError(message){
         video.src = "video/normal.mp4"; 
         video.play();
     }
+
 
 }
