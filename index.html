@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clyver</title>
+    <link rel="shortcut icon" href="/weather/video/fevicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+     
+    <video autoplay muted loop id="backgroundVideo">
+    <source src="/weather/video/normal.mp4" type="video/mp4">
+</video>
+
+    <form class="weatherForm">
+        <div  id="logo">
+            <img src="video/fevicon.png" alt="">
+        </div>
+        <input type="text" class="cityInput" placeholder="Enter City">
+        <button type="submit" >Get Weather</button>
+    </form>
+        
+
+    <div class="card" style="display: none;">
+        
+        </div>
+    <script src="index.js"></script>
+</body>
+</html>
